@@ -1,5 +1,3 @@
 def xo(string)
-  x = string.downcase.count('x')
-  o = string.downcase.count('o')
-  x == o ? true : false
+string.downcase.count('x') == string.downcase.count('o') ? true : false
 end
